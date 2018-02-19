@@ -87,6 +87,50 @@ into the `bub_sim_yy.root`  files
 
 * `scripts/plot_photon_flux.cxx` :
 
+## Histograms 
+
+The list of histograms in the output file is:
+
+```
+/p0/back0              /p0/fhPXY0_gamma           /p0/fhPXY1_gamma
+/p0/fhPXY2_gamma       /p0/fhXvsE_all             /p0/fhXvsE_gamma
+/p0/fhXvsE_n           /p0/fhXvsE_not_gamma       /p0/fhXY0_all
+/p0/fhXY0_gamma        /p0/fhXY1_all              /p0/fhXY1_gamma
+/p0/fhXY2_all          /p0/fhXY2_gamma            /p0/forw0
+/p1/back0              /p1/fhPXY0_gamma           /p1/fhPXY1_gamma
+/p1/fhPXY2_gamma       /p1/fhXvsE_all             /p1/fhXvsE_gamma
+/p1/fhXvsE_n           /p1/fhXvsE_not_gamma       /p1/fhXY0_all
+/p1/fhXY0_gamma        /p1/fhXY1_all              /p1/fhXY1_gamma
+/p1/fhXY2_all          /p1/fhXY2_gamma            /p1/forw0
+/p2/back0              /p2/fhPXY0_gamma           /p2/fhPXY1_gamma
+/p2/fhPXY2_gamma       /p2/fhXvsE_all             /p2/fhXvsE_gamma
+/p2/fhXvsE_n           /p2/fhXvsE_not_gamma       /p2/fhXY0_all
+/p2/fhXY0_gamma        /p2/fhXY1_all              /p2/fhXY1_gamma
+/p2/fhXY2_all          /p2/fhXY2_gamma            /p2/forw0
+/p3/back0              /p3/fhPXY0_gamma           /p3/fhPXY1_gamma
+/p3/fhPXY2_gamma       /p3/fhXvsE_all             /p3/fhXvsE_gamma
+/p3/fhXvsE_n           /p3/fhXvsE_not_gamma       /p3/fhXY0_all
+/p3/fhXY0_gamma        /p3/fhXY1_all              /p3/fhXY1_gamma
+/p3/fhXY2_all          /p3/fhXY2_gamma            /p3/forw0
+/p4/back0              /p4/fhPXY0_gamma           /p4/fhPXY1_gamma
+/p4/fhPXY2_gamma       /p4/fhXvsE_all             /p4/fhXvsE_gamma
+/p4/fhXvsE_n           /p4/fhXvsE_not_gamma       /p4/fhXY0_all
+/p4/fhXY0_gamma        /p4/fhXY1_all              /p4/fhXY1_gamma
+/p4/fhXY2_all          /p4/fhXY2_gamma            /p4/forw0
+/p5/back0              /p5/fhPXY0_gamma           /p5/fhPXY1_gamma
+/p5/fhPXY2_gamma       /p5/fhXvsE_all             /p5/fhXvsE_gamma
+/p5/fhXvsE_n           /p5/fhXvsE_not_gamma       /p5/fhXY0_all
+/p5/fhXY0_gamma        /p5/fhXY1_all              /p5/fhXY1_gamma
+/p5/fhXY2_all          /p5/fhXY2_gamma            /p5/forw0
+/p6/back0              /p6/fhPXY0_gamma           /p6/fhPXY1_gamma
+/p6/fhPXY2_gamma       /p6/fhXvsE_all             /p6/fhXvsE_gamma
+/p6/fhXvsE_n           /p6/fhXvsE_not_gamma       /p6/fhXY0_all
+/p6/fhXY0_gamma        /p6/fhXY1_all              /p6/fhXY1_gamma
+/p6/fhXY2_all          /p6/fhXY2_gamma            /p6/forw0
+```
+
+
+
 ## `simulations` Directory structure
 
 ```
