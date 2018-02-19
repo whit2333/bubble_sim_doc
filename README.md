@@ -15,35 +15,29 @@ Directory: `simulations/ideal`
 
 Directory: `simulations/nominal`
 
-| --------------------- | --------------- | ------- |
 | Parameter             | Nominal Value   | Notes   |
 | --------------------- | --------------- | ------- |
 | Energy                | 4.5-5.5 MeV     |         |
 | Energy RMS Spread     | 3 keV           |         |
 | Beam Position         | (0 mm, 0 mm)    |         |
 | Position RMS spread   | (1 mm, 1 mm)    |         |
-| --------------------- | --------------- | ------- |
 
 ## Energy RMS Spread scan
 
-| ---------------- | ------------------- | ---------------------------- |
 | Directory Name   | RMS Energy spread   | Notes                        |
 | ---------------- | ------------------- | ---------------------------- |
 | `energy_rms1`    | 20 keV              | Nominal settings otherwise   |
 | `energy_rms2`    | 50 keV              | Nominal settings otherwise   |
 | `energy_rms3`    | 10 keV              | Nominal settings otherwise   |
-| ---------------- | ------------------- | ---------------------------- |
 
 
 ## Position Offset
 
-| ------------------ | ------------------- | ---------------------------- |
 | Directory Name     | Position Offset     | Notes                        |
 | ---------------    | ------------------- | ---------------------------- |
 | `position_offset1` | (1 mm, 0 mm)        | Nominal settings otherwise   |
 | `position_offset2` | (2 mm, 0 mm)        | Nominal settings otherwise   |
 | `position_offset3` | (3 mm, 0 mm)        | Nominal settings otherwise   |
-| ----------------   | ------------------- | ---------------------------- |
 
 ## Position RMS Spread
 
