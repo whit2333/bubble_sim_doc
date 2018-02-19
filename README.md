@@ -4,14 +4,23 @@
 
 Energies: 4.75, 4.85, 4.95, 5.05, 5.15, 5.25 MeV
 
-## Ideal conditions:
+Inside each simulation configuration directory is a `data` directory with root 
+files. Each root file like `bubble_sim_yyxx.root` is the result of simulating 
+10M electrons incident on the radiator. They are combined for each energy 
+setting into the one file named `bub_sim_yy.root`.  Note the `yy` corresponds 
+to an energy setting.
 
-Directory: `simulations/ideal`
+| `yy`       | Energy     |
+| ---------- | ---------- |
+| `10`       | 4.75 Mev   |
+| `11`       | 4.85 Mev   |
+| `12`       | 4.95 Mev   |
+| `13`       | 5.05 Mev   |
+| `14`       | 5.15 Mev   |
+| `15`       | 5.25 Mev   |
 
-* Perfect beam energy
-* Perfect beam position (0,0) 
 
-## Nominal Conditions
+### Nominal Conditions
 
 Directory: `simulations/nominal`
 
@@ -22,7 +31,7 @@ Directory: `simulations/nominal`
 | Beam Position         | (0 mm, 0 mm)    |         |
 | Position RMS spread   | (1 mm, 1 mm)    |         |
 
-## Energy RMS Spread scan
+### Energy RMS Spread scan
 
 | Directory Name   | RMS Energy spread   | Notes                        |
 | ---------------- | ------------------- | ---------------------------- |
@@ -31,7 +40,7 @@ Directory: `simulations/nominal`
 | `energy_rms3`    | 10 keV              | Nominal settings otherwise   |
 
 
-## Position Offset
+### Position Offset
 
 | Directory Name     | Position Offset     | Notes                        |
 | ---------------    | ------------------- | ---------------------------- |
@@ -39,7 +48,7 @@ Directory: `simulations/nominal`
 | `position_offset2` | (2 mm, 0 mm)        | Nominal settings otherwise   |
 | `position_offset3` | (3 mm, 0 mm)        | Nominal settings otherwise   |
 
-## Position RMS Spread
+### Position RMS Spread
 
 | Directory Name     | Position RMS spread | Notes                        |
 | ---------------    | ------------------- | ---------------------------- |
@@ -48,7 +57,7 @@ Directory: `simulations/nominal`
 | `position_rms2`    | (3 mm, 3 mm)        | Nominal settings otherwise   |
 | `position_rms3`    | (4 mm, 4 mm)        | Nominal settings otherwise   |
 
-## From Riad
+### From Riad
 
 | Nominal Value             | Sensitivity                  | Range                                    |
 | ------------------------- | ---------------------------- | ---------------------------------------- |
@@ -71,6 +80,12 @@ diferent beeam size sigmas.
 4. Positon on radiator: use GEANT4, and for one energy (e.g., 5 MeV), 
 measure photon spectra for diferent beeam positons.
 
+## Scripts
+
+* `scripts/add_histograms` : will combine the  `bubble_sim_yyxx.root` files 
+into the `bub_sim_yy.root`  files
+
+* `scripts/plot_photon_flux.cxx` :
 
 ## `simulations` Directory structure
 
@@ -120,6 +135,10 @@ measure photon spectra for diferent beeam positons.
 |   |-- bub_spring_run.xml
 |   `-- data -> /work/accel/bubble/whit/data/position_rms3/data
 |-- README.md
+|-- scripts
+|   |-- add_histograms
+|   `-- plot_photon_flux.cxx
 `-- work_disk -> /work/accel/bubble/whit
 ```
+
 
