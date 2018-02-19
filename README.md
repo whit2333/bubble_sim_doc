@@ -47,18 +47,15 @@ Directory: `simulations/nominal`
 
 ## Position RMS Spread
 
-| ------------------ | ------------------- | ---------------------------- |
 | Directory Name     | Position RMS spread | Notes                        |
 | ---------------    | ------------------- | ---------------------------- |
 | `position_rms0`    | (0.5 mm, 0.5 mm)    | Nominal settings otherwise   |
 | `position_rms1`    | (2 mm, 2 mm)        | Nominal settings otherwise   |
 | `position_rms2`    | (3 mm, 3 mm)        | Nominal settings otherwise   |
 | `position_rms3`    | (4 mm, 4 mm)        | Nominal settings otherwise   |
-| ----------------   | ------------------- | ---------------------------- |
 
 ## From Riad
 
-| -----------------------   | --------------------------   | --------------------------------------   |
 | Nominal Value             | Sensitivity                  | Range                                    |
 | ------------------------- | ---------------------------- | ---------------------------------------- |
 | Energy Range              | 4.5-5.5 MeV                  | 0.1%, 0.2%, 0.3%                         |
@@ -66,7 +63,6 @@ Directory: `simulations/nominal`
 | RMS energy spread         | 0.06% (3 keV)                | 1, 5, 10, 20, 30, 50 keV                 |
 | RMS sigma at radiator     | 1 mm                         | 0.5, 1.5, 2.0, 3 mm                      |
 | Position at radiator      | 0 (centered on radiator)     | 0.1, 0.5, 1.0, 2.0, 5 mm (of center)     |
-| ------------------------  | ---------------------------- | ---------------------------------------- |
 
 
 Suggestions on how to study sensitivities:
