@@ -1,0 +1,8 @@
+#!/bin/bash
+
+for anum in $(seq 10 15) ; do
+
+  hadd  data/bub_sim_${anum}.root data/bubble_sim_${anum}[0-9][0-9].root
+
+done
+
