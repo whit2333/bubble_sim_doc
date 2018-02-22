@@ -19,6 +19,15 @@ to an energy setting.
 | `14`       | 5.15 Mev   |
 | `15`       | 5.25 Mev   |
 
+## Getting the data
+
+All the latest simulated data can be [downloaded 
+here](https://userweb.jlab.org/~whit/bubble/simulations.tar.gz). The 
+`bub_sim_yy.root` files are in their respective folders (see below).
+This file will be continuously updated.
+```
+wget https://userweb.jlab.org/~whit/bubble/simulations.tar.gz
+```
 
 ### Nominal Conditions
 
