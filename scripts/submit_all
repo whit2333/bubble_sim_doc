@@ -1,0 +1,38 @@
+#!/bin/bash
+
+sims="energy_rms0 \
+energy_rms1   \
+energy_rms2   \
+energy_rms3   \
+energy_rms4   \
+ideal         \
+nominal       \
+position_offset0 \
+position_offset1 \
+position_offset2 \
+position_offset3 \
+position_rms0 \
+position_rms1 \
+position_rms2 \
+position_rms3"
+
+for sname in ${sims} ; do 
+
+  xml_file=${sname}/bub_spring_run.xml
+
+  scripts/update_run_numbers ${xml_file} 100000000  > ${sname}/bub_spring_run2.xml
+
+  echo "${xml_file}"
+  #head -n 32 ${xml_file} | tail -n 10
+  #sleep 0.5
+  jsub -xml ${sname}/bub_spring_run2.xml
+  echo "pausing 10s"
+  sleep 8
+  echo "2..."
+  sleep 1
+  echo "1..."
+  sleep 1
+
+
+done
+
