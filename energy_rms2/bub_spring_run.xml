@@ -25,7 +25,7 @@
 /bin/bash <<EOF
 source /group/bubble/whit/bubble_setup.sh
 cd /work/accel/bubble/whit/data/energy_rms2/data
-echo "/run/beamOn 50000000" | singularity_bubble_sim -b -E 4.75 -e 0.050 --vertex 0 0 0 -R 1.0 1.0 0 --run ${runs}
+echo "/run/beamOn 50000000" | singularity_bubble_sim -b -E 4.75 -e 0.020 --vertex 0 0 0 -R 1.0 1.0 0 --run ${runs}
 EOF
         ]]></Command>
     </Job>
@@ -51,7 +51,7 @@ EOF
 /bin/bash <<EOF
 source /group/bubble/whit/bubble_setup.sh
 cd /work/accel/bubble/whit/data/energy_rms2/data
-echo "/run/beamOn 50000000" | singularity_bubble_sim -b -E 4.85 -e 0.050 --vertex 0 0 0 -R 1.0 1.0 0 --run ${runs2}
+echo "/run/beamOn 50000000" | singularity_bubble_sim -b -E 4.85 -e 0.020 --vertex 0 0 0 -R 1.0 1.0 0 --run ${runs2}
 EOF
         ]]></Command>
     </Job>
@@ -77,7 +77,7 @@ EOF
 /bin/bash <<EOF
 source /group/bubble/whit/bubble_setup.sh
 cd /work/accel/bubble/whit/data/energy_rms2/data
-echo "/run/beamOn 50000000" | singularity_bubble_sim -b -E 4.95 -e 0.050 --vertex 0 0 0 -R 1.0 1.0 0 --run ${runs3}
+echo "/run/beamOn 50000000" | singularity_bubble_sim -b -E 4.95 -e 0.020 --vertex 0 0 0 -R 1.0 1.0 0 --run ${runs3}
 EOF
         ]]></Command>
     </Job>
@@ -103,7 +103,7 @@ EOF
 /bin/bash <<EOF
 source /group/bubble/whit/bubble_setup.sh
 cd /work/accel/bubble/whit/data/energy_rms2/data
-echo "/run/beamOn 50000000" | singularity_bubble_sim -b -E 5.05 -e 0.050 --vertex 0 0 0 -R 1.0 1.0 0 --run ${runs4}
+echo "/run/beamOn 50000000" | singularity_bubble_sim -b -E 5.05 -e 0.020 --vertex 0 0 0 -R 1.0 1.0 0 --run ${runs4}
 EOF
         ]]></Command>
     </Job>
@@ -129,7 +129,7 @@ EOF
 /bin/bash <<EOF
 source /group/bubble/whit/bubble_setup.sh
 cd /work/accel/bubble/whit/data/energy_rms2/data
-echo "/run/beamOn 50000000" | singularity_bubble_sim -b -E 5.15 -e 0.050 --vertex 0 0 0 -R 1.0 1.0 0 --run ${runs5}
+echo "/run/beamOn 50000000" | singularity_bubble_sim -b -E 5.15 -e 0.020 --vertex 0 0 0 -R 1.0 1.0 0 --run ${runs5}
 EOF
         ]]></Command>
     </Job>
@@ -155,7 +155,7 @@ EOF
 /bin/bash <<EOF
 source /group/bubble/whit/bubble_setup.sh
 cd /work/accel/bubble/whit/data/energy_rms2/data
-echo "/run/beamOn 50000000" | singularity_bubble_sim -b -E 5.25 -e 0.050 --vertex 0 0 0 -R 1.0 1.0 0 --run ${runs6}
+echo "/run/beamOn 50000000" | singularity_bubble_sim -b -E 5.25 -e 0.020 --vertex 0 0 0 -R 1.0 1.0 0 --run ${runs6}
 EOF
         ]]></Command>
     </Job>

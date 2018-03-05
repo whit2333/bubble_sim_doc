@@ -1,5 +1,14 @@
 # Bubble Sim Documentation
 
+## Introduction
+
+The simulation includes:
+
+* Radiator
+* Cu Collimator
+* Chamber Port collimator and window
+* Pb pig a.k.a. R2D2.
+
 ## Simulations for Spring Run
 
 Energies: 4.75, 4.85, 4.95, 5.05, 5.15, 5.25 MeV
@@ -20,6 +29,17 @@ to an energy setting.
 | `15`       | 5.25 Mev   |
 
 
+### Ideal Conditions
+
+Directory: `simulations/ideal`
+
+| Parameter             | Nominal Value   | Notes   |
+| --------------------- | --------------- | ------- |
+| Energy                | 4.5-5.5 MeV     |         |
+| Energy RMS Spread     | 0.01 keV        |         |
+| Beam Position         | (0 mm, 0 mm)    |         |
+| Position RMS spread   | (0.001 mm, 0.001 mm)    |         |
+
 ### Nominal Conditions
 
 Directory: `simulations/nominal`
@@ -35,15 +55,18 @@ Directory: `simulations/nominal`
 
 | Directory Name   | RMS Energy spread   | Notes                        |
 | ---------------- | ------------------- | ---------------------------- |
-| `energy_rms1`    | 20 keV              | Nominal settings otherwise   |
-| `energy_rms2`    | 50 keV              | Nominal settings otherwise   |
-| `energy_rms3`    | 10 keV              | Nominal settings otherwise   |
+| `energy_rms0`    |   1 keV             | Nominal settings otherwise   |
+| `energy_rms1`    |  10 keV             | Nominal settings otherwise   |
+| `energy_rms2`    |  20 keV             | Nominal settings otherwise   |
+| `energy_rms3`    |  50 keV             | Nominal settings otherwise   |
+| `energy_rms4`    | 100 keV             | Nominal settings otherwise   |
 
 
 ### Position Offset
 
 | Directory Name     | Position Offset     | Notes                        |
 | ---------------    | ------------------- | ---------------------------- |
+| `position_offset0` | (0.5 mm, 0 mm)        | Nominal settings otherwise   |
 | `position_offset1` | (1 mm, 0 mm)        | Nominal settings otherwise   |
 | `position_offset2` | (2 mm, 0 mm)        | Nominal settings otherwise   |
 | `position_offset3` | (3 mm, 0 mm)        | Nominal settings otherwise   |
@@ -86,6 +109,8 @@ measure photon spectra for diferent beeam positons.
 into the `bub_sim_yy.root`  files
 
 * `scripts/plot_photon_flux.cxx` :
+
+
 
 ## Histograms 
 

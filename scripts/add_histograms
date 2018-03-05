@@ -1,8 +1,12 @@
 #!/bin/bash
 
+sim_dir=$( basename $(pwd) )
+echo ${sim_dir}
+
 for anum in $(seq 10 15) ; do
 
   hadd -k data/bub_sim_${anum}.root data/bubble_sim_${anum}[0-9][0-9].root
+  scp data/bub_sim_${anum}.root jlabl3:public_html/bubble/simulations/${sim_dir}/.
 
 done
 
